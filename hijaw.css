@@ -1,10 +1,17 @@
+body{
+    width: 1250px;
+}
 nav{
-    width: 102%;
+    width: 101%;
     height: 60px;
     background: linear-gradient(to right,#025859,#009EA0 );
     margin-top: -1em;
-    margin-left: -1em;
-    box-shadow: 0px -15px 39px 3px;
+    margin-left: -8px;
+    
+    
+    box-shadow: 0px 0px 27px 1px;
+
+    border: none;
     
 }
 ul{
@@ -19,6 +26,21 @@ ul{
     margin-right: 2em;
     color: white;
     font-size: 20px;
+}
+.kiri{
+    float: right;
+    line-height: 45px;
+    color: white;
+    margin-right: 2em;
+    line-height: 60px;
+}
+.Register{
+    margin-right: 6em;
+    float: right;
+    line-height: 40px;
+    color: white;
+    background-color: #065757;
+    
 }
 
 <!--TULISAN DARI GOOGLE-->
@@ -35,21 +57,13 @@ ul{
 }
 
 
-.kiri{
+.menuu{
+    width: 3em;
+    height: 43px;
     float: right;
-    line-height: 45px;
-    color: white;
     margin-right: 2em;
-    line-height: 60px;
-    
-}
-.Register{
-    margin-right: 6em;
-    float: right;
-    line-height: 40px;
-    color: white;
-    background-color: #065757;
-    
+    margin-top: 8px ;
+   
 }
 .Register{
     margin: 0;
@@ -68,14 +82,21 @@ a{
     color: white;
 }
 .Register{
-    margin-right: 6em;
+    margin-right: 2em;
     margin-top: 9px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
     
 }
-
+.Register:hover{
+    box-shadow: 1px 1px 13px -4px black;
+    border: 1.5px solid white;
+    background-color: #098c8c;
+}
+.bagian-atas{
+    margin-top: 1em;
+}
 .patrick{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
@@ -99,12 +120,13 @@ a{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-style: normal;
+    width: 100%;
     
 }
 .slogan{
     margin-top: 3em;
-    margin-left: 25px;
-    width: 75em;
+    margin-left: 3em;
+    
     height: 18em;
     
 }
@@ -116,4 +138,143 @@ a{
     color: white;
     margin-top: 4em;
     
+}
+.comunitas:hover{
+    box-shadow: 1px 1px 16px -2px black;
+    background-color: #14b2b2;
+}
+.Fitur-tersedia{
+    background-color: #98CDD1;
+
+    width: 100%;
+    height: 2em;
+
+    margin-left: 0px;
+    margin-top: 1em;
+
+    border: 2px solid #009EA0 ;
+    color: white;
+    line-height: 2em;
+    text-align: center;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fitur-1{
+    background-color: #026364;
+    width: 12em ;
+    height: 19em;
+    float: left;
+    margin: 6em 3em 3em 5em;
+    border: 1.5px solid #25888a;
+}
+.fitur-1{
+    margin: 0;
+    padding: 0;
+}
+.fitur-1::before,
+.fitur-1::after {
+    content: "";
+    display: table;
+}
+.fitur-1::after{
+    clear: both;
+}
+.fitur-1{
+    background-color: #026364;
+    width: 13em ;
+    height: 22em;
+    float: left;
+    margin: 6em 3em 3em 5em;
+    border: 1.5px solid #25888a;
+
+    
+}
+.slotip{
+    background-color: rgb(207, 16, 16);
+    width: 5em;
+    height: 2em;
+    float: left;
+    margin-left: 30%;
+    border: 1.5px solid #CC2020;
+    margin-bottom: -2em;
+    border-top: none;
+    
+}
+.tur1{
+    margin-left: 11em;
+}
+.tulisan-fitur{
+    color: white;
+    text-align: center;
+    margin-top: 4em;
+    font-size: 18px;
+}
+.value-fitur{
+    color: white;
+    font-size: 15px;
+    margin: 15px 2em;
+}
+.gambar_fitur{
+    width: 5em;
+    height: 71px;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+.gambar_fitur1{
+    width: 5em;
+    height: 71px;
+    margin-left: 4em;
+    margin-top: 37px;
+}
+.gambar_fitur2{
+    width: 5em;
+    height: 77px;
+    margin-left: 4em;
+    margin-top: 37px;
+}
+.bagian_2_isi{
+    width: 43em;
+    height: 29em;
+    margin-left: 2em;
+    margin-top: 4em;
+    float: left;
+}
+.bagian_3_isi{
+    width: 28em;
+    height: 29em;
+    float: right;
+    margin-right: 2em;
+    margin-top: 4em;
+}
+.bagian_4_isi{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 6em;
+}
+.gabungan{
+    margin-top: 6em;
+    margin-left: -8px;
+    width: 101%;
+}
+.bagian_5{
+    width: 100%;
+    margin-left: 0px;
+    
+}
+.bagian_6{
+    margin-top: -4px;
+    width: 100%;
+    margin-left: 0px;
+}
+.bagian_7{
+    margin-top: -4px;
+    width: 100%;
+    margin-left: 0px;
+}
+.penutup{
+    background: linear-gradient(to bottom,#033D3D,#000000);
+    margin-top: -5px;
+    width: 100%;
+    margin-left: 0px;
+    height: 19em;
 }
