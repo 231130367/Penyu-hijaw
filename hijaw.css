@@ -178,57 +178,15 @@ a{
     box-shadow: 1px 1px 16px -2px black;
     background-color: #14b2b2;
 }
-.slogan{
-   
-    background-color: white;
-    list-style-type: none;
-    margin-bottom: 30em;
-    margin-left: 1em;
-    
-    
-   
-}
-.slogan5r{
-    width: 10em;
-    height: 10em;
-    background-color: #025859;
-    display: table;
-    float: left;
-}
-.slogan5r{
-    margin: 0;
-    padding: 0;
-}
-.slogan5r::before,
-.slogan5r::after {
-    content: "";
-    display: table;
-}
-.slogan5r::after{
-    clear: both;
-}
-.slogan5r{
-    margin: 2em;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 10em;
-    color: white;
-}
-.bagian_kiri_limar{
-    float: right;
-    width: 9em;
-    height: 6em;
-    margin-top: -8em;
-    margin-right: 69em;
 
-    
-}
 
-.bagian_kanan_limar{
-    float: right;
-    height: 5em;
-    margin-top: -29em;
-}
+
+
+
+
+
+
+
 
 .tulisann{
     font-family: "Roboto", sans-serif;
@@ -392,19 +350,33 @@ a{
 .bagian_4_isi{
     background-image: url(./icon/bagain_4_isi.png);
     background-repeat: no-repeat;
-    height: 60em;
+    height: 30em;
     margin-top: 85em;
     background-size: 45em;
     margin-left: 15em;
     text-align: center;
-    
+}
+*{
+    border: 1px solid black;
+}
+.bagian_4_isi{
+    margin: 0;
+    padding: 0;
+}
+.bagian_4_isi::before,
+.bagian_4_isi::after {
+    content: "";
+    display: table;
+}
+.bagian_4_isi::after{
+    clear: both;
 }
 .bagian4_isi_dalam{
     background-color: rgba(225, 99, 21, 0.80);
     width: 11em;
     height: 18em;
     float: left;
-    margin: 6em 5em 0em -11em;
+    margin: 6em 5em 4em -11em;
 }
 .bagian4_isi_dalam1{
     background-color: rgba(225, 99, 21, 0.80);
