@@ -1,15 +1,18 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 1250px;
-    background-color: #FFDBAD;
 }
 nav{
-    width: 80em;
+    width: 100%;
     height: 60px;
     background: linear-gradient(to right,#025859,#009EA0 );
-    margin-top: -1em;
-    margin-left: -8px;
+    margin-top: 0;
+    margin-left: 0;
     
+    position: fixed;
     
     box-shadow: 0px 0px 27px 1px;
 
@@ -21,20 +24,70 @@ ul{
 }
 .kanan{
     float: left;
-    line-height: 60px;
+    line-height: 30px;
     padding-right: 2em;
+    margin-top: 14px;
 }
+
 .logo{
-    margin-right: 2em;
+    margin-right: 1em;
+    margin-left: 3em;
     color: white;
     font-size: 20px;
 }
 .kiri{
     float: right;
-    line-height: 45px;
+    line-height: 30px;
     color: white;
     margin-right: 2em;
-    line-height: 60px;
+    margin-top: 14px;
+}
+
+.Register{
+    margin-right: 6em;
+    float: right;
+    line-height: 2em;
+    color: white;
+    background-color: #065757;
+    
+}
+.Register{
+    margin: 0;
+    padding: 0;
+}
+.Register::before,
+.Register::after {
+    content: "";
+    display: table;
+}
+.Register::after{
+    clear: both;
+}
+.Register{
+    margin-right: 2em;
+    margin-top: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 2em;
+    
+}
+.Register:hover{
+    box-shadow: 1px 1px 13px -4px black;
+    border: 1.5px solid white;
+    background-color: #098c8c;
+}
+
+.menuu{
+    width: 3em;
+    height: 43px;
+    float: right;
+    margin-right: 3em;
+    margin-top: 8px ;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 <!--TULISAN DARI GOOGLE-->
@@ -49,82 +102,103 @@ ul{
     font-weight: 390;
     font-style: normal;
 }
-
-
-.menuu{
-    width: 3em;
-    height: 43px;
-    float: right;
-    margin-right: 2em;
-    margin-top: 8px ;
+.patrick{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    color: #026364;
+    font-size: 35px;
+    margin-top: 1em;
+}
+.untuk_gambar_login{
+    float: left;
+}
+.untuk_gambar_login{
+    margin: 0;
+    padding: 0;
+}
+.untuk_gambar_login::before,
+.untuk_gambar_login::after {
+    content: "";
+    display: table;
+}
+.untuk_gambar_login::after{
+    clear: both;
+}
+.untuk_gambar_login{
+    margin-top: 5em;
+    
+    width: 44em;
+    height: 33em;
    
 }
-.a_pertama{
-    text-decoration: none;
-    color: white;
+.untuk_bagian_atass{
+    margin-top: 3em;
+    
 }
-.backk{
-    text-decoration: none;
-    color: #016162;
-}
+.untuk_tombol_login{
+    float: right;
 
-.daftar{
-    color: #016162;
+}
+.untuk_bagian_atas_welcome_back{
+    margin-top: 1em;
+    color: #026364;
+}
+.untuk_tombol_login{
+    margin: 0;
+    padding: 0;
+}
+.untuk_tombol_login::before,
+.untuk_tombol_login::after {
+    content: "";
+    display: table;
+}
+.untuk_tombol_login::after{
+    clear: both;
+}
+.untuk_tombol_login{
+    border: 2px solid #026364;
+    width: 23em;
+    height: 32em;
+    margin-top: 5em;
+    margin-right: 7em;
+    border-radius: 7%;
     text-align: center;
-    font-size: 28px;
-    margin-bottom: 1em;
 
-    
 }
-.login_awal{
-    width: 14em;
-    height: 8em;
-    margin-left: 32em;
-    margin-top: 6em;
+.untuk_tombol_login_1{
+    color: #026364;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 4em;
+    font-size: 15px;
 }
-.kolom-putih{
+.untuk_border{
+    border: 1.5px solid #026364;
     background-color: white;
-    width: 14em;
+    width: 63%;
     height: 2em;
-    margin-top: -10px;
-    border-radius: 1px;
+    margin-left: 4em;
+    border-radius: 5px;
+    margin-top: 8px;
 }
-.kata_satu{
-    color: #016162;
-    font-size: 18.5px;
-}
-.kolom-putih1{
+.back_kiri{
     float: left;
+    border: 1px solid #026364;
+    color: #026364;
+    background-color: white;
+    margin-left: 4em;
+    margin-top: 3em;
+    border-radius: 5px ;
+    padding: 13px 23px;
+}
+
+.back_kanan{
+    float: right;
+    color: #026364;
+    border: 1px solid black;
     background-color: white;
     margin-top: 3em;
-    padding: 9px 20px;
-    border-radius: 5px;
-    color: #016162;
-}
-.kolom-putih1:hover{
-    background-color: rgb(237, 232, 232);
-    box-shadow:  1px 1px 13px -4px black;
-}
-.kolom-putih2{
-    float: right;
-    background-color: white;
-    margin-top: 3em;
-    padding: 9px 20px;
-    border-radius: 5px;
-    color: #016162;
-}
-.kolom-putih2:hover{
-    background-color: rgb(237, 232, 232);
-    box-shadow:  1px 1px 13px -4px black;
-}
-.untuk_login_kiri{
-    margin-top: -4em;
-    float: left;
-    width: 29em;
-}
-.untuk_login_kanan{
-    float: right;
-    width: 29em;
-    
-    margin-top: -4em;
+    margin-right: 4em;
+    border-radius: 5px ;
+    padding: 13px 23px;
 }
