@@ -155,7 +155,7 @@ a{
 }
 .belakang_hijaw{
     background-color: #98cdd1e2;
-    width: 100%;
+    width: 1255px;
 
     height: 45em;
 }
@@ -206,4 +206,77 @@ a{
 }
 .Bayangkan1{
     margin-top: 65px;
+}
+footer{
+    margin-top: 15em;
+    margin-left: 1px;
+    margin-bottom: 1em;
+    background-color: white;
+    border:1px solid #717272;
+    border-left: none;
+    border-right: none;
+    width: 1258px;
+    height: 24em;
+}
+.isi_artikel_footer{
+    margin-left: 5em;
+}
+.jdl_artikel_footer{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.jdl_artikel_footer1{
+    margin-top: 6em;
+    margin-left: 5em;
+}
+.isi_artikel_footer1{
+    margin-left: 19em;
+    margin-top: -1em;
+}
+.jdl_artikel_footer2{
+    float: right;
+    margin-right: 473px;
+    margin-top: -14em;
+}
+.isi_artikel_footer2{
+    float: right;
+    margin-top: -12em;
+    margin-right: 27em;
+}
+.zero_bawah{
+    color: black;
+  
+}
+.isi_artikel_footer3{
+    float: right;
+    margin-top: -12em;
+    margin-right: 17em;
+
+}
+.jdl_artikel_footer3{
+    float: right;
+    margin-right: 19em;
+    margin-top: -14em;
+}
+.masukkan_email_bawah{
+    background-color: rgb(226, 226, 226);
+    display: table;
+    width: 12em;
+    height: 2em;
+    line-height: 2em;
+    padding-left: 1em;
+    margin-left: 45em;
+    margin-top: -2em;
+    color: rgb(139, 138, 138);
+}
+.untuk_tombol_nya{
+    color: white;
+    background-color: #009EA0;
+    display: table;
+    padding: 13px 15px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 10em;
+    margin-top: -2em;
 }
