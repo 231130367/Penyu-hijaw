@@ -143,8 +143,14 @@ a{
     clear: both;
 }
 .bagian-atas-kanan{
-    margin-top: 7em;
+    width: 44em;
+    padding-top: 5em;
+    height: 27em;
+    margin-top: 3em;
     margin-left: 0px;
+    margin-right: 0em;
+    
+    
 }
 
 .isi_konten{
@@ -295,13 +301,17 @@ a{
 
 }
 .penjelasan_tentang{
-    border-radius: 50px;
+    border-radius: 20px;
     width: 100%;
-    height: 28em;
+    height: 33em;
     margin-left: 6px;
-    margin-top: 15em;   
+    margin-top: 10em;   
     padding: 3em 0em;
-    border: 1.6px solid rgb(75, 74, 74);
+    border: 1px solid rgb(75, 74, 74);
+    background-image: url(./icon/belakang1.jpg);
+    background-position: center;
+    background-size:80em;
+    background-repeat: no-repeat;
 
 }
 
@@ -390,10 +400,73 @@ hr{
 footer{
     margin-top: 15em;
     margin-left: 1px;
+    margin-bottom: 1em;
     background-color: white;
-    border:2px solid #024647;
+    border:1px solid #717272;
     border-left: none;
     border-right: none;
     width: 1258px;
-    height: 13em;
+    height: 24em;
+}
+.isi_artikel_footer{
+    margin-left: 5em;
+}
+.jdl_artikel_footer{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.jdl_artikel_footer1{
+    margin-top: 6em;
+    margin-left: 5em;
+}
+.isi_artikel_footer1{
+    margin-left: 19em;
+    margin-top: -1em;
+}
+.jdl_artikel_footer2{
+    float: right;
+    margin-right: 473px;
+    margin-top: -14em;
+}
+.isi_artikel_footer2{
+    float: right;
+    margin-top: -12em;
+    margin-right: 27em;
+}
+.zero_bawah{
+    color: black;
+  
+}
+.isi_artikel_footer3{
+    float: right;
+    margin-top: -12em;
+    margin-right: 17em;
+
+}
+.jdl_artikel_footer3{
+    float: right;
+    margin-right: 19em;
+    margin-top: -14em;
+}
+.masukkan_email_bawah{
+    background-color: rgb(226, 226, 226);
+    display: table;
+    width: 12em;
+    height: 2em;
+    line-height: 2em;
+    padding-left: 1em;
+    margin-left: 45em;
+    margin-top: -2em;
+    color: rgb(139, 138, 138);
+}
+.untuk_tombol_nya{
+    color: white;
+    background-color: #009EA0;
+    display: table;
+    padding: 13px 15px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 10em;
+    margin-top: -2em;
 }
