@@ -103,12 +103,13 @@ a{
     font-style: normal;
 }
 .patrick{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     color: #026364;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 1em;
 }
+
 .bagian-atas{
     margin-top: 0em;
     width: 100%;
@@ -149,12 +150,11 @@ a{
     margin-top: 3em;
     margin-left: 0px;
     margin-right: 0em;
-    
-    
 }
 
 .isi_konten{
     font-family: "Roboto", sans-serif;
+    line-height: 25px;
     font-size: 18px;
     font-style: normal;
     width: 100%;
@@ -184,21 +184,22 @@ a{
     margin-left: 16em;
 }
 .ubah_gambar{
-    height: 80px;
-    width: 5em;
-    margin-left: 64px;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 55px;
 }
 .belakang_orange{
     width: 13em;
     height: 20em;
-    background-color: RGB(245, 242, 225,0.93);
+    background: rgba(225, 99, 21, 0.80);
     float: left;
     margin: 8em 1em;
 }
 .ubah_tulisan{
-    font-size: 18px;
-    margin-top: 1em;
-    color: #025859;
+    font-size: 16px;
+    color: white;
     text-align: center;
 }
 .tambah1{
@@ -207,7 +208,8 @@ a{
 .ubah_artikel{
     margin-top: 1em;
     font-size: 16px;
-    color: #024647;
+    line-height: 19px;
+    color: white;
     text-align: left;
     margin-left: 7px;
 }
@@ -256,7 +258,7 @@ a{
 }
 .gambar_isi{
     margin-top: 1em;
-    font-size: 19px;
+    font-size: 20px;
 }
 .berjalan_kiri{
     margin-top: 5em;

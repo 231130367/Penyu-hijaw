@@ -12,6 +12,7 @@ body {
     border-bottom: 1px solid #065757;
 }
 
+
 .challenge-title {
     background: white;
     color: #026364;
@@ -262,13 +263,14 @@ footer{
     float: right;
     margin-top: -12em;
     margin-right: 17em;
-
 }
+
 .jdl_artikel_footer3{
     float: right;
     margin-right: 19em;
     margin-top: -14em;
 }
+
 .masukkan_email_bawah{
     background-color: rgb(226, 226, 226);
     display: table;
@@ -280,6 +282,7 @@ footer{
     margin-top: -2em;
     color: rgb(139, 138, 138);
 }
+
 .untuk_tombol_nya{
     color: white;
     background-color: #009EA0;
