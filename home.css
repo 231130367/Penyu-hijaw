@@ -35,6 +35,9 @@ ul{
     color: white;
     font-size: 20px;
 }
+.home a{
+    font-weight: bold;
+}
 .kiri{
     float: right;
     line-height: 30px;
@@ -105,7 +108,7 @@ a{
 .patrick{
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
-    color: #026364;
+    color: #065757;
     font-size: 40px;
     margin-top: 1em;
 }
@@ -305,7 +308,7 @@ a{
 .penjelasan_tentang{
     border-radius: 20px;
     width: 100%;
-    height: 33em;
+    height: 30em;
     margin-left: 6px;
     margin-top: 10em;   
     padding: 3em 0em;
@@ -348,18 +351,18 @@ a{
     margin-left: 14em;
 }
 .penjelasan_dalam2{
-    margin-top: 3em;
-    width: 14em;
-    height: 25em;
+    margin-top: 1em;
+    width: 12em;
+    height: 24em;
 }
 .penjelasan_dalam2:hover{
     box-shadow: 0px 0px 40px 2px #33639a;
 }
 .penjelasan_dalam-gambar{
-    width: 15em;
+    width: 16em;
     height: 14em;
     margin-top: -5em;
-    margin-left: -23px;
+    margin-left: -22px;
 }
 .penjelasan_dalam-gambar1{
     width: 12em;
@@ -368,36 +371,36 @@ a{
     margin-left: -2px;
 }
 .penjelasan_dalam-gambar0{
-    width: 15em;
+    width: 12em;
     height: 14em;
     margin-top: -5em;
     margin-left: -8px;
 }
 hr{
- margin-top: -1em;
+    margin-top: -1em;
 }
 .garis_biru{
     width: 100%;
     height: 1em;
-    background-color: #1F4167;
+    background-color: #013B3B;
     color: white;
     text-align: center;
     line-height: 1em;
 }
 .penjelasan_judull{
-    color: #1F4167;
+    color: #013B3B;
     text-align: center;
     margin-top:1em;
 }
 .artikel_satu{
     font-size: 14px;
     margin: 1em 1em;
-    text-align: justify;
+    text-align: left;
 }
 .selain_satu{
     font-size: 13px;
     margin: 1em 1em;
-    text-align: justify;
+    text-align: left;
 }
 footer{
     margin-top: 15em;
@@ -408,17 +411,19 @@ footer{
     border-left: none;
     border-right: none;
     width: 1258px;
-    height: 24em;
+    height: 26em;
 }
 .isi_artikel_footer{
     margin-left: 5em;
 }
 .jdl_artikel_footer{
-    margin-top: 3em;
+    font-weight: bold;
+    margin-top: 4em;
     margin-left: 5em;
     margin-bottom: 1em;
 }
 .jdl_artikel_footer1{
+    font-weight: bold;
     margin-top: 6em;
     margin-left: 5em;
 }
@@ -438,28 +443,31 @@ footer{
 }
 .zero_bawah{
     color: black;
-  
+    display: flex;
+    font-size: 15px;
+
 }
 .isi_artikel_footer3{
     float: right;
-    margin-top: -12em;
+    margin-top: -14em;
     margin-right: 17em;
 
 }
 .jdl_artikel_footer3{
+    font-weight: bold;
     float: right;
-    margin-right: 19em;
-    margin-top: -14em;
+    margin-right: 21em;
+    margin-top: -16em;
 }
 .masukkan_email_bawah{
     background-color: rgb(226, 226, 226);
     display: table;
-    width: 12em;
+    width: 13em;
     height: 2em;
-    line-height: 2em;
+    line-height: 3em;
     padding-left: 1em;
     margin-left: 45em;
-    margin-top: -2em;
+    margin-top: -3em;
     color: rgb(139, 138, 138);
 }
 .untuk_tombol_nya{
@@ -470,5 +478,10 @@ footer{
     border-radius: 7px;
     float: right;
     margin-right: 10em;
-    margin-top: -2em;
+    margin-top: -3em;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 4em;
 }
