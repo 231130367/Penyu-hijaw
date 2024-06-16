@@ -19,6 +19,9 @@ nav{
     border: none;
     
 }
+.navbar ul li.community a{
+    font-weight: bold;
+}
 ul{
     list-style-type: none;
 }

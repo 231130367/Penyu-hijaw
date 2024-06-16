@@ -4,12 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
 header {
     background: linear-gradient(to right, #025859, #009EA0);
@@ -91,6 +85,9 @@ header {
     float: right;
 }
 
+.navbar ul li.zero a{
+    font-weight: bold;
+}
 
 .section-container {
     background-color: #f8f8f8;
