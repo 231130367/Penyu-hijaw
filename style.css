@@ -1,11 +1,116 @@
 body {
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: 'Open Sans', sans-serif;
+>>>>>>> target/main
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
+<<<<<<< HEAD
 .section-container {
+=======
+
+nav{
+    width: 101%;
+    height: 60px;
+    background: linear-gradient(to right,#025859,#009EA0 );
+    margin-top: -1em;
+    margin-left: -8px;
+    
+    position: fixed;
+    
+    box-shadow: 0px 0px 27px 1px;
+
+    border: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+.kanan{
+    float: left;
+    line-height: 30px;
+    padding-right: 2em;
+    margin-top: none;
+}
+
+.logo{
+    margin-right: 2em;
+    color: white;
+    font-size: 20px;
+}
+.kiri{
+    float: right;
+    line-height: 30px;
+    color: white;
+    margin-right: 2em;
+}
+
+.Register{
+    margin-right: 6em;
+    float: right;
+    line-height: 2em;
+    color: white;
+    background-color: #065757;
+    
+}
+.Register{
+    margin: 0;
+    padding: 0;
+}
+.Register::before,
+.Register::after {
+    content: "";
+    display: table;
+}
+.Register::after{
+    clear: both;
+}
+.Register{
+    margin-right: 2em;
+    margin-top: -1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 2em;
+    
+}
+.Register:hover{
+    box-shadow: 1px 1px 13px -4px black;
+    border: 1.5px solid white;
+    background-color: #098c8c;
+}
+
+.menuu{
+    width: 3em;
+    height: 43px;
+    float: right;
+    margin-right: 3em;
+    margin-top: -7px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+<!--TULISAN DARI GOOGLE-->
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 390;
+    font-style: normal;
+}
+
+header {
+>>>>>>> target/main
     background-color: #f8f8f8;
     padding: 10px 0;
     text-align: center;
@@ -22,7 +127,11 @@ body {
     padding: 10px;
 }
 
+<<<<<<< HEAD
 .container { 
+=======
+.container {
+>>>>>>> target/main
     max-width: 801px;
     margin: 38px 55px 39px 424px;
     background: #fff;
@@ -30,7 +139,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> target/main
 }
 
 .main-title {
@@ -50,7 +162,12 @@ body {
 }
 
 .challenge-button {
+<<<<<<< HEAD
     float: left;
+=======
+    display: flex;
+    justify-content: left;
+>>>>>>> target/main
     margin-top: 20px;
 }
 
@@ -64,7 +181,10 @@ body {
     padding: 10px 20px;
     border-radius: 50px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
     display: inline-block;
+=======
+>>>>>>> target/main
 }
 
 .challenge-button a:hover {
@@ -74,7 +194,11 @@ body {
 .profile {
     font-family: 'Roboto', sans-serif;
     position: absolute;
+<<<<<<< HEAD
     top: 220px;
+=======
+    top: 150px;
+>>>>>>> target/main
     left: 20px;
     width: 350px;
 }
@@ -98,12 +222,22 @@ body {
 }
 
 .profile-container {
+<<<<<<< HEAD
     float: left;
+=======
+    display: flex;
+    flex-direction: column;
+    background: rgba(217, 217, 217, 0.30); 
+    padding: 22px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+>>>>>>> target/main
     margin: 20px;
     width: 300px;
     height: auto;
 }
 
+<<<<<<< HEAD
 .profile-container aside {
     overflow: hidden;
     background: rgba(217, 217, 217, 0.30); 
@@ -112,11 +246,18 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.10);
     float: left;
     width: calc(100% - 75px);
+=======
+.profile-container > aside {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+>>>>>>> target/main
 }
 
 .profile-container img {
     width: 50px;
     height: 50px;
+<<<<<<< HEAD
     margin-bottom: 10px;
     float: left;
 }
@@ -126,11 +267,25 @@ body {
     font-weight: bold;
     text-align: left;
     margin-left: 65px;
+=======
+    margin-bottom: 17px;
+}
+
+.profile-container p {
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 19px; 
+>>>>>>> target/main
 }
 
 main {
     padding: 5px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    margin-left: -25px;
+>>>>>>> target/main
 }
 
 .week-button {
@@ -152,6 +307,10 @@ main {
     color: white;
     font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> target/main
 .checkbox-container {
     max-width: 801px;
     height: 290px;
@@ -159,11 +318,18 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     padding: 20px;
+<<<<<<< HEAD
+=======
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+>>>>>>> target/main
     margin-top: 20px;
 }
 
 .checkbox-list {
     padding: 0;
+<<<<<<< HEAD
     overflow: hidden; 
 }
 
@@ -171,6 +337,14 @@ main {
     float: left; 
     margin-bottom: 10px;
     clear: both; 
+=======
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+>>>>>>> target/main
 }
 
 .checkbox {
@@ -182,7 +356,11 @@ main {
 
 .checkbox-label {
     font-size: 16px;
+<<<<<<< HEAD
     color: black;
+=======
+    color: black; /* Combine with previous declaration */
+>>>>>>> target/main
 }
 
 span {
@@ -196,7 +374,11 @@ nav > span {
 
 .green-button {
     background-color: #009EA0;
+<<<<<<< HEAD
     color:    white;
+=======
+    color: white;
+>>>>>>> target/main
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -219,6 +401,7 @@ nav > span {
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 footer{
     margin-top: 10em;
     margin-left: 1px;
@@ -290,3 +473,108 @@ footer{
     margin-right: 10em;
     margin-top: -2em;
 }
+=======
+footer {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    background: linear-gradient(180deg, #033D3D 0%, black 100%);
+}
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.newsletter {
+    width: 366px;
+    height: 170px;
+    position: absolute;
+    left: 189px;
+    top: 15px;
+    color: white;
+}
+
+.newsletter h2 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 300;
+}
+
+.newsletter p {
+    font-size: 16px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 300;
+}
+
+.email {
+    position: relative;
+    margin-top: 20px;
+}
+
+.email input {
+    width: 203px;
+    height: 41px;
+    background: rgba(217, 217, 217, 0.50);
+    border: none;
+    padding-left: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 14px;
+    color: rgba(217, 217, 217, 0.50);
+}
+
+.email-submit {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -35px;
+    top: 5px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media {
+    position: absolute;
+    left: 420px; 
+    top: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media a {
+    width: 40px;
+    height: 30px;
+    display: block;
+}
+.footer-links {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    bottom: 40px;
+    left: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+>>>>>>> target/main
