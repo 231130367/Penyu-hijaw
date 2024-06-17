@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     width: 1250px;
@@ -11,16 +12,17 @@ nav{
     background: linear-gradient(to right,#025859,#009EA0 );
     margin-top: 0;
     margin-left: 0;
-    
+   
     position: fixed;
     
     box-shadow: 0px 0px 27px 1px;
-
+    font-weight: normal;
     border: none;
-    
 }
+
 ul{
     list-style-type: none;
+    text-decoration: none;
 }
 .kanan{
     float: left;
@@ -80,6 +82,12 @@ ul{
     border: 1.5px solid white;
     background-color: #098c8c;
 }
+.header{
+    margin-top: 13px;
+    float: left;
+    margin-left: 1em;
+    font-size: 19px;
+}
 
 .menuu{
     width: 3em;
@@ -92,8 +100,6 @@ a{
     text-decoration: none;
     color: white;
 }
-
-<!--TULISAN DARI GOOGLE-->
 
 .roboto-light-italic {
     font-family: "Roboto", sans-serif;
@@ -108,6 +114,7 @@ a{
 .patrick{
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
+<<<<<<< HEAD:home.css
     color: #065757;
     font-size: 40px;
     margin-top: 1em;
@@ -262,29 +269,38 @@ a{
 .gambar_isi{
     margin-top: 1em;
     font-size: 20px;
+=======
+    color: #026364;
+    font-size: 19px;
+    margin-top: 14px;
+>>>>>>> 6d200756d390a97a74489855596904a7663aad69:tips3.css
 }
-.berjalan_kiri{
-    margin-top: 5em;
-    margin-left: 1em;
+.belakang{
+    
+    width: 100%;
+    height: 4em;
+   
 }
-
-
-
-.berjalan_kiri2{
+.container{
+    background: white;
+    
+}
+.box{
     float: left;
 }
-.berjalan_kiri2{
+.box{
     margin: 0;
     padding: 0;
 }
-.berjalan_kiri2::before,
-.berjalan_kiri2::after {
+.box::before,
+.box::after {
     content: "";
     display: table;
 }
-.berjalan_kiri2::after{
+.box::after{
     clear: both;
 }
+<<<<<<< HEAD:home.css
 .berjalan_kiri2{
     margin-top: 5em;
     margin-left: 1em;
@@ -401,6 +417,26 @@ hr{
     font-size: 13px;
     margin: 1em 1em;
     text-align: left;
+=======
+.box1{
+    width: 10em;
+    height: 8em;
+    color: #065757 ;
+    
+}
+.box2{
+    color: rgb(190, 188, 188);
+    margin-top: 7px;
+    margin-left: 31em;
+    width: 22em;
+    height: 2em;
+    padding-left: 1em;
+    line-height: 2em;
+    border-radius: 16px;
+    border: 1px solid #065757;
+
+
+>>>>>>> 6d200756d390a97a74489855596904a7663aad69:tips3.css
 }
 footer{
     margin-top: 15em;
@@ -478,6 +514,7 @@ footer{
     border-radius: 7px;
     float: right;
     margin-right: 10em;
+<<<<<<< HEAD:home.css
     margin-top: -3em;
 }
 
@@ -485,3 +522,137 @@ footer{
     text-align: center;
     padding-top: 4em;
 }
+=======
+    margin-top: -2em;
+}
+.new_post{
+    float: right;
+    margin-top: 10px;
+    margin-right: 3em;
+    background-color: #009EA0;
+    height: 2em;
+    width: 7em;
+    text-align: center;
+    line-height: 2em;
+    color: white;
+    border-radius: 5px;
+    
+}
+.bawah_header{
+    float: left;
+}
+.box-3{
+    margin-top: 1em;
+    margin-left: 1em;
+    border:1.5px solid #025859;
+    padding: 3px 7px;
+    border-radius: 15px;
+}
+.box-4{
+    margin-top: 18px;
+    margin-left: 1em;
+    background-color: #025859;
+    padding: 3px 10px ;
+    color: white;
+    border-radius: 5px;
+}
+.box-4:hover{
+    background-color: #009EA0;
+    border: 1.3px solid rgb(179, 178, 178);
+}
+.perubahan{
+    color: #025859;
+}
+.box-5{
+    margin-top: 20px;
+    margin-left: 1em;
+    color: blue;
+    text-decoration: underline;
+}
+.box-6{
+    color: black;
+    margin-top: 20px;
+    margin-left: 1.5em;
+}
+.ni-kiri{
+    float: left;
+    width: 15em;
+    height: 20em;
+    
+}
+.ni-kiri{
+    margin: 0;
+    padding: 0;
+}
+.ni-kiri::before,
+.ni-kiri::after {
+    content: "";
+    display: table;
+}
+.ni-kiri::after{
+    clear: both;
+}
+.ni-kiri{
+    background-color: #019D9F;
+    margin-top: 5em;
+    margin-left: -34em;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.micel{
+    margin: 1em;
+    text-align: justify;
+}
+
+
+
+.ni-kanan{
+    float: left;
+    width: 60em;
+    height: 10em;
+}
+.ni-kanan{
+    margin: 0;
+    padding: 0;
+}
+.ni-kanan::before,
+.ni-kanan::after {
+    content: "";
+    display: table;
+}
+.ni-kanan::after{
+    clear: both;
+}
+.ni-kanan{
+    background-color: #026364;
+    margin-top: -11em;
+    margin-left: 16em;
+}
+.bawah-kanan{
+    float: left;
+    background-color: #CBE6E8;
+    margin-top: 0em;
+    margin-left: 16em;
+    width: 60em;
+    height: 80em;
+    
+}
+.bawah-kanan{
+    margin: 0;
+    padding: 0;
+}
+.bawah-kanan::before,
+.bawah-kanan::after {
+    content: "";
+    display: table;
+}
+.bawah-kanan::after{
+    clear: both;
+}
+.bawah-kanan{
+    margin-top: 14em;
+    margin-left: 17em;
+}
+>>>>>>> 6d200756d390a97a74489855596904a7663aad69:tips3.css
