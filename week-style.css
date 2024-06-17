@@ -70,7 +70,7 @@ header {
 }
 
 .navbar ul li.login a:hover {
-    background-color: #098c8c;
+    background-color: #009EA0;
     box-shadow: 1px 1px 13px -4px black;
     border: 1.5px solid white;
 }
@@ -109,7 +109,7 @@ header {
 .container {
     max-width: 801px;
     margin: 38px 55px 39px 424px;
-    background: #fff;
+    background: white;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 10px;
@@ -142,7 +142,7 @@ header {
     background: #009EA0;
     color: white;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 10px 20px;
@@ -152,7 +152,7 @@ header {
 }
 
 .challenge-button a:hover {
-    background-color: #007d7f;
+    background-color: #065757;
 }
 
 .profile {
@@ -289,11 +289,12 @@ nav > span {
     cursor: pointer;
     width: 55%;
     height: 39px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     line-height: 19.06px;
     word-wrap: break-word;
     text-align: left;
+    text-decoration: none;
 }
 
 .green-button:hover {

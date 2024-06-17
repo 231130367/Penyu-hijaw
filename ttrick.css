@@ -133,55 +133,6 @@ header {
     font-size: 20px;
 }
 
-main {
-    display: flex;
-    padding: 20px;
-}
-
-aside {
-    width: 300px;
-    padding: 20px;
-    margin-right: 20px;
-}
-
-.rules,
-.consequences {
-    background-color: #b2ebf2;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 0 0 10px 10px;
-}
-
-.rules-title,
-.consequences-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 18px;
-    padding: 10px;
-    background-color: #065757;
-    color: white;
-    border-radius: 10px 10px 0 0;
-}
-
-.rules ul,
-.consequences p {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.rules ul li {
-    margin-bottom: 10px;
-}
-
-.share {
-    flex-grow: 1;
-    background-color: #b2ebf2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 
 .week-btn,
 .tips-btn {
@@ -197,40 +148,102 @@ aside {
     text-decoration: none;
 }
 
-.week-btn.active {
+.tips-btn.active {
     background-color: #065757;
     color: white;
 }
 
 .week-btn {
-    left: 10px; 
+    left: 1em; 
 }
 
 .tips-btn {
     left: 12em;
 }
 
-.join-btn {
-    background-color: #065757;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
+.share {
+    background-color: #b2ebf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    min-height: calc(100vh - 60px);
+    margin: 0 auto;
+    padding: 20px;
 }
 
+h2 {
+    font-size: 24px;
+    color: #065757;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.article {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 2em;;
+    text-align: left;
+    padding-left: 2em;
+    align-items: center;
+    width: 100%;
+}
+
+article a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.article img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #065757;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 240px);
+}
+
+.text-content h4 {
+    color: red;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-content time {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.text-content h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.text-content p {
+    line-height: 1.6;
+    margin: 0;
+}
 
 footer{
-    margin-top: 8em;
     margin-left: 1px;
     margin-bottom: 1em;
     background-color: white;
     border:1px solid #717272;
     border-left: none;
     border-right: none;
-    width: 1258px;
+    width: 100%;
+    max-width: 1280px;
     height: 26em;
 }
 .isi_artikel_footer{
@@ -306,4 +319,3 @@ footer{
     text-align: center;
     padding-top: 3em;
 }
-

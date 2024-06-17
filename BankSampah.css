@@ -95,11 +95,12 @@ a{
 h1{
     background: white;
     color: #026364;
-    font-size: 39px;
+    font-size: 30px;
     font-family: 'Patrick Hand', cursive;
     margin: 0;
     border-bottom: 2px solid #009EA0;
     text-align: center;
+    padding: 10px;
 }
 
 section h2{
@@ -149,7 +150,7 @@ main {
     width: 30%;
     float: left;
     margin: 1.66%;
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     box-sizing: border-box;
     border: 1px solid #065757;
@@ -172,7 +173,6 @@ li {
     justify-content: space-between;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
 }
 
 li span {
@@ -180,7 +180,7 @@ li span {
 }
 
 footer{
-    margin-top: 8em;
+    margin-top: 5em;
     margin-left: 1px;
     margin-bottom: 1em;
     background-color: white;
